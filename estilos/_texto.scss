@@ -1,0 +1,172 @@
+/*Texto*/
+
+
+
+/*Principal*/
+
+.principal {
+    background-image: linear-gradient(green, lightgreen, yellow);
+    padding: 5%;
+
+    &__titulo {
+        @include titulo;
+    }
+
+    &__titulo-texto {
+        @include titulo__texto;
+    }
+
+    &__titulo-parrafo {
+        @include titulo__parrafo;
+
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .principal__titulo-parrafo {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .principal__titulo {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .principal__texto {
+            font-size: 10px;
+        }
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .principal__titulo-texto {
+            font-size: 10px;
+        }
+    }
+
+
+}
+
+/*Nosotros*/
+
+.nos {
+    background-image: linear-gradient(green, lightgreen, yellow);
+    padding: 5%;
+
+    &__titulo {
+        @include titulo;
+    }
+
+    &__titulo-parrafo {
+        @include titulo__parrafo;
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .nos__titulo-parrafo {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .nos__titulo {
+            font-size: 10px;
+        }
+    }
+
+}
+
+/*Beneficios*/
+
+.bene {
+    background-image: linear-gradient(green, lightgreen, yellow);
+    padding: 5%;
+
+    &__titulo {
+        @include titulo;
+    }
+
+    &__titulo-texto {
+        @include titulo__texto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .bene__titulo-texto {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .bene__titulo {
+            font-size: 10px;
+        }
+    }
+
+}
+
+/*Sedes*/
+
+.sedes {
+    background-image: linear-gradient(green, lightgreen, yellow);
+    padding: 5%;
+
+    &__texto {
+        @include texto();
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .bene__texto {
+            font-size: 10px;
+        }
+    }
+
+}
+
+/*Tienda*/
+
+.tienda {
+    background-image: linear-gradient(green, lightgreen, yellow);
+    padding: 5%;
+
+    &__titulo {
+        @include titulo;
+    }
+
+    &__titulo-texto {
+        @include titulo__texto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .tienda__titulo-texto {
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .tienda__titulo {
+            font-size: 10px;
+        }
+    }
+
+}
+
+h1 {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: 26px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 10px;
+    }
+}

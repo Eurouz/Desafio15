@@ -1,0 +1,30 @@
+/*Navegacion*/
+
+#logo {
+    border-radius: 15%;
+    width: 15vh;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.nav-color {
+    background-image:linear-gradient(red, orange);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+    color: yellow;
+    background: grey;
+    border-radius: 15%;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
